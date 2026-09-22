@@ -4,7 +4,6 @@ import Home from "./Pages/Home/Home";
 import CreatePost from "./Pages/CreatePost/CreatePost";
 import { Route, Routes } from "react-router-dom";
 import SinglePost from "./Pages/SinglePost/SinglePost";
-import { createPost } from "../../server/Controllers/Post.Controller";
 
 const App = () => {
   return (
